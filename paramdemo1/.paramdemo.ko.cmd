@@ -1,0 +1,1 @@
+cmd_/home/alex/work/paramdemo1/paramdemo.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/alex/work/paramdemo1/paramdemo.ko /home/alex/work/paramdemo1/paramdemo.o /home/alex/work/paramdemo1/paramdemo.mod.o;  true
