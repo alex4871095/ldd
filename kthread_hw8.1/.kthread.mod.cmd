@@ -1,0 +1,1 @@
+cmd_/home/alex/work/kthread_hw8.1/kthread.mod := printf '%s\n'   kthread_main.o radio_or.o radio_rw.o | awk '!x[$$0]++ { print("/home/alex/work/kthread_hw8.1/"$$0) }' > /home/alex/work/kthread_hw8.1/kthread.mod

@@ -1,0 +1,1 @@
+cmd_/home/alex/work/kthread_hw8.1/random_kthread.mod := printf '%s\n'   random_kthread.o radio_or.o radio_rw.o | awk '!x[$$0]++ { print("/home/alex/work/kthread_hw8.1/"$$0) }' > /home/alex/work/kthread_hw8.1/random_kthread.mod

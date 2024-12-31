@@ -1,0 +1,1 @@
+cmd_/home/alex/work/kthread_hw9/kthread.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/alex/work/kthread_hw9/kthread.ko /home/alex/work/kthread_hw9/kthread.o /home/alex/work/kthread_hw9/kthread.mod.o;  true
