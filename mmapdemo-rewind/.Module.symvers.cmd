@@ -1,1 +1,0 @@
-cmd_/home/alex/work/mmeapdemo-rewind/Module.symvers :=  sed 's/ko$$/o/'  /home/alex/work/mmeapdemo-rewind/modules.order | scripts/mod/modpost -m      -o /home/alex/work/mmeapdemo-rewind/Module.symvers -e -i Module.symvers -T - 

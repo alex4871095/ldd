@@ -1,1 +1,0 @@
-cmd_/home/alex/work/kthread_hw9.1/Module.symvers :=  sed 's/ko$$/o/'  /home/alex/work/kthread_hw9.1/modules.order | scripts/mod/modpost -m      -o /home/alex/work/kthread_hw9.1/Module.symvers -e -i Module.symvers -T - 

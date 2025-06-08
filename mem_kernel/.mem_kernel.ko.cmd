@@ -1,1 +1,0 @@
-cmd_/home/alex/work/mem_kernel/mem_kernel.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/alex/work/mem_kernel/mem_kernel.ko /home/alex/work/mem_kernel/mem_kernel.o /home/alex/work/mem_kernel/mem_kernel.mod.o;  true

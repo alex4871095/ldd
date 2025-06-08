@@ -1,1 +1,0 @@
-cmd_/home/alex/work/fpu_kernel/fpu_mod.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/alex/work/fpu_kernel/fpu_mod.ko /home/alex/work/fpu_kernel/fpu_mod.o /home/alex/work/fpu_kernel/fpu_mod.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_/home/alex/work/random_kernel/rand_kernel.o := ld -m elf_x86_64 -z noexecstack --no-warn-rwx-segments   -r -o /home/alex/work/random_kernel/rand_kernel.o @/home/alex/work/random_kernel/rand_kernel.mod 

@@ -1,1 +1,0 @@
-cmd_/home/alex/work/symbols/my_alert.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/alex/work/symbols/my_alert.ko /home/alex/work/symbols/my_alert.o /home/alex/work/symbols/my_alert.mod.o;  true
